@@ -24,6 +24,10 @@ a {
 	transition: 0.5s;
 }
 
+span {
+	color: #ff0157;
+}
+
 .cta:hover {
 	letter-spacing: 6px;
 }
@@ -37,14 +41,12 @@ a {
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
-	
 }
 
 .banner .content {
 	max-width: 900px;
 	text-align: center;
 
-	
 }
 .banner .content h2 {
 	color: #fff;
@@ -53,4 +55,52 @@ a {
 .banner p {
 	color: #fff;
 	font-size: 1rem;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 40px 100px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+
+header.sticky {
+	background: #fff;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+	color: #fff;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+header.sticky .logo {
+	color: #111;
+}
+header .navigation {
+	position: relative;
+	display: flex;	
+}
+header .navigation li {
+	list-style: none;
+	margin-left: 30px;
+}
+header .navigation li a {
+	color: #fff;
+	font-weight: 400;
+}
+header .navigation li a:hover {
+	color: #ff0157;
+}
+
+header.sticky .navigation li a {
+	color: #111;
 }
