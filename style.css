@@ -18,9 +18,10 @@ a {
 	padding: 10px 30px;
 	font-size: 1em;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 40px;
 	letter-spacing: 2px;
 	transition: 0.5s;
+	margin: 0 auto;
 }
 
 span {
@@ -58,6 +59,7 @@ span {
 	color: #fff;
 	font-size: 1rem;
 }
+
 /* --- FIM SESSÃO BANNER --- */
 
 /* --- HEADER --- */
@@ -154,6 +156,9 @@ img {
 	max-width: 100%;
 	display: block;
 }
+/* --- FIM SESSÃO ABOUT --- */
+
+/* --- SESSÃO MENU --- */
 
 .title {
 	width: 100%;
@@ -168,6 +173,8 @@ img {
 	flex-wrap: wrap;
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
 
 }
 .content > div {
@@ -200,6 +207,8 @@ img {
 	font-weight: 500;
 	color: #111;
 }
+
+/* ---FIM SESSÃO EXPERTS*/
 .testimonials {
 	background-image: url("/images/bg2.jpg");
 }
@@ -250,4 +259,10 @@ img {
 	text-align: center;
 	margin-top: 20px;
 }
+/* --- FIM SESSÃO TESTIMONIALS --- */
 
+/* --- SESSÃO CONTATO */
+
+
+
+/* --- FIM SESSÃO CONTATO --- */ 
