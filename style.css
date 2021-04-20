@@ -166,11 +166,37 @@ img {
 .content {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 1340px;
+	max-width: 1200px;
 	margin: 0 auto;
 
 }
 .content > div {
 	flex: 1 1 340px;
 	margin: 10px;
+}
+
+.text {
+	padding: 15px 0 5px;
+}
+
+.text h3 {
+	font-weight: 400;
+	color: #111;
+}
+
+.content-2 {
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.content-2 > div {
+	flex: 1 1 340px;
+	margin: 15px;
+}
+.content-2 > div > p {
+	padding: 10px 0px;
+	font-weight: 500;
+	color: #111;
 }
