@@ -181,6 +181,9 @@ img {
 	flex: 1 1 340px;
 	margin: 10px;
 }
+/* --- FIM SESSÃO MENU --- */
+
+/* --- SESSÃO EXPERTS */
 
 .text {
 	padding: 15px 0 5px;
@@ -209,6 +212,8 @@ img {
 }
 
 /* ---FIM SESSÃO EXPERTS*/
+
+/* --- SESSÃO TESTIMONIALS --- */
 .testimonials {
 	background-image: url("/images/bg2.jpg");
 }
@@ -266,10 +271,7 @@ img {
 .contact {
 	background-image: url("/images/bg3.jpg");
 	background-size: cover;
-	
-	
 }
-
 .contactForm {
 	background-color: #fff;
 	padding: 75px 50px;
