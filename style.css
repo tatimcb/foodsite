@@ -30,7 +30,7 @@ span {
 	font-weight: 700;
 }
 
-.cta:hover {
+.btn:hover {
 	letter-spacing: 6px;
 }
 
@@ -58,7 +58,9 @@ span {
 .banner p {
 	color: #fff;
 	font-size: 1rem;
+	margin-bottom: 40px;
 }
+
 
 /* --- FIM SESSÃO BANNER --- */
 
@@ -309,3 +311,16 @@ img {
 }
 
 /* --- FIM SESSÃO CONTATO --- */ 
+
+.copyrightText {
+	text-align: center;
+	padding: 8px 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.copyrightText p {
+	color: #333;
+}
+.copyrightText a {
+	color: #ff0157;
+	font-weight: 500;
+}
